@@ -93,7 +93,7 @@ function About() {
               <div className="relative aspect-[4/5] overflow-hidden bg-[#111]">
 
                 <img
-                  src="/images/bharat-profile.png"
+                  src={`${import.meta.env.BASE_URL}images/bharat-profile.png`}
                   alt="Bharat Bandu Mohite"
                   className="h-full w-full object-cover object-center transition duration-700 hover:scale-[1.03]"
                 />
