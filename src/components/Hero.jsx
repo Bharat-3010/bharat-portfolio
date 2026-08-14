@@ -106,7 +106,7 @@ function Hero() {
               Contact
             </a>
             <a
-             href="/Bharat_Mohite_Resume.pdf"
+             href={`${import.meta.env.BASE_URL}Bharat_Mohite_Resume.pdf`}
              download="Bharat_Mohite_Resume.pdf"
              className="inline-flex items-center gap-2 rounded-lg border border-white/10 px-5 py-3 font-mono text-sm text-gray-300 transition hover:border-emerald-400/30 hover:text-emerald-400"
 >
