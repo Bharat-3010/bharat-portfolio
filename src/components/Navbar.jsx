@@ -139,7 +139,7 @@ function Navbar() {
             DESKTOP RESUME
         ========================================= */}
         <a
-          href="/Bharat_Mohite_Resume.pdf"
+          href={`${import.meta.env.BASE_URL}Bharat_Mohite_Resume.pdf`}
           target="_blank"
           rel="noreferrer"
           className="hidden rounded-lg border border-emerald-400/20 bg-emerald-400/5 px-4 py-2 font-mono text-xs text-emerald-400 transition hover:border-emerald-400/40 hover:bg-emerald-400/10 lg:block"
